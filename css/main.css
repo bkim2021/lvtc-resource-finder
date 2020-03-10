@@ -2,6 +2,30 @@
 * Author: Brett Kim
 */
 
+* {
+    font-family: 'Playfair Display', Cambria, serif;
+}
+
 h1 {
-    color: pink;
+    font-size: 5em;
+}
+
+.heading {
+    text-align: center;
+}
+
+#flex {
+    display: flex;
+}
+
+hr {
+    width: 75%;
+}
+
+a, a:visited {
+    color: #d11415;
+}
+
+.lvtc {
+    color: #d11415;
 }
