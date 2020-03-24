@@ -3,11 +3,12 @@
 */
 
 * {
-    font-family: 'Playfair Display', Cambria, serif;
+    font-family: 'Playfair Display';
 }
 
+
 h1 {
-    font-size: 5em;
+    font-size: 3.5em;
     font-family: 'Playfair Display'
 }
 
@@ -15,8 +16,9 @@ h1 {
     text-align: center;
 }
 
-#flex {
-    display: flex;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 hr {
@@ -29,4 +31,19 @@ a, a:visited {
 
 .lvtc {
     color: #d11415;
+}
+
+.grid div {
+    border: 0.2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-basis: 33.3333%;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
